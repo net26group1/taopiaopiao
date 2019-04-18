@@ -96,6 +96,9 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
 
+    <Compile Include="Controllers\BookController.cs" />
+
+
     <Compile Include="Controllers\YuweiController.cs" />
 
     <Compile Include="Controllers\HomeController.cs" />
@@ -109,6 +112,9 @@
     <Content Include="Views\web.config" />
     <Content Include="packages.config" />
 
+    <Content Include="Views\Book\Index.cshtml" />
+
+
     <Content Include="Views\Yuwei\Index.cshtml" />
 
     <Content Include="Views\_ViewStart.cshtml" />
@@ -119,6 +125,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+
 
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
