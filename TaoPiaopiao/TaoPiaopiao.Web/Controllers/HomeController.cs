@@ -18,5 +18,11 @@ namespace TaoPiaopiao.Web.Controllers
         public ActionResult Create() {
             return View();
         }
+
+
+        public ActionResult Edit() {
+            return View();
+        }
+
     }
 }
